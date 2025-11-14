@@ -1,6 +1,6 @@
-from plots import simple_streamlit
+from plots import simple_streamlit, penguins_plots
 
-simple_streamlit()
+penguins_plots()
 
 
 
