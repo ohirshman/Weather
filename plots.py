@@ -18,7 +18,7 @@ def penguins_plots():
     plot_choice = st.radio('Choose you plot library:', ['Seaborn', 'Plotly'])
 
     if plot_choice == 'Seaborn':
-        fig, ax = plt.subplot()
+        fig, ax = plt.subplots()
         sns.scatterplot(data=df, x='flipper_length_mm', y='body_mass_g', hue='species')
         st.pyplot(fig)
 
